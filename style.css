@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+    background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    color: white;
+    margin: 3%;
+}
+
+#h1 {
+    font-size: 70px;
+    text-align: center;
+}
+
+#h2 {
+    font-size: 25px;
+}
+
+#img {
+    height: 300px;
+    width: 400px;
+    align-items: center;
+    margin: 10%;
+    animation: floating 5s infinite ease-in-out;
+}
+
+@keyframes floating {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(30px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+#ending {
+    text-align: center;
+}
